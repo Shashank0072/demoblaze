@@ -1,10 +1,8 @@
 import unittest
 import demoblaze as run
 
-
-class DemoblazePositiveTestCases(unittest.TestCase):  # create class
-
-    @staticmethod  # signal to Unittest that this is a static method
+class DemoblazePositiveTestCases(unittest.TestCase):
+    @staticmethod
     def test_demoblaze():
         run.setUp()
         run.sign_up()
@@ -13,4 +11,6 @@ class DemoblazePositiveTestCases(unittest.TestCase):  # create class
         run.log_out()
         run.tearDown()
 
+if __name__ == '__main__':
+    unittest.main()
 

@@ -206,10 +206,10 @@ try:
 except Exception as e:
     print(f"Error occured in Log Out: {e}")
 
-setUp()
-sign_up()
-log_in()
-checkout_cart()
-log_out()
-tearDown()
+# setUp()
+# sign_up()
+# log_in()
+# checkout_cart()
+# log_out()
+# tearDown()
 
